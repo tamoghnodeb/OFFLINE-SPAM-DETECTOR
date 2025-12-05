@@ -40,4 +40,6 @@ Output: SPAM
 Your output should be in exactly one word — either 'HAM' or 'SPAM'.
 Do not include punctuation, explanations, or extra text.
 Only reply with 'HAM' or 'SPAM'.
+Just only display one result either 'HAM' or 'SPAM' other than that do not display any other message.
+Only just show the result either ham or spam
 """
