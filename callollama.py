@@ -3,7 +3,7 @@ import json
 
 def callOLLAMA (user_message):
     #try:
-        url = "https://offline-spam-detector.streamlit.app/"
+        url = "http://localhost:11434/api/generate"
         payload = {
             "model" : "phi3",
             "prompt" : user_message,
@@ -21,3 +21,4 @@ def callOLLAMA (user_message):
             return bot_response.strip()
 
         
+
