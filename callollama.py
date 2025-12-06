@@ -3,7 +3,7 @@ import json
 
 def callOLLAMA (user_message):
     #try:
-        url = "http://localhost:11434/api/generate"#it will run locally in my system through the port 11434 and by hitting this url it will generate natural language respond
+        url = "https://offline-spam-detector.streamlit.app/"
         payload = {
             "model" : "phi3",
             "prompt" : user_message,
@@ -19,4 +19,5 @@ def callOLLAMA (user_message):
             result = response.json()
             bot_response = result.get("response","Sorry, I am unable to help you")
             return bot_response.strip()
+
         
